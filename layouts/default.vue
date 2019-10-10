@@ -1,5 +1,7 @@
 <template>
   <div>
+    <nuxt-link to="/about">About</nuxt-link>
+    <nuxt-link exact to="/home">Home</nuxt-link>
     <nuxt />
   </div>
 </template>
