@@ -1,6 +1,6 @@
-# nuxt-demo
+# Portfolio Website
 
-> My swell Nuxt.js project
+> Personal Website
 
 ## Build Setup
 
