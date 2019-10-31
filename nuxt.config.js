@@ -40,7 +40,15 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-purgecss',
+    'nuxt-webfontloader'
   ],
+  purgeCSS: {},
+  webfontloader: {
+    google: {
+      families: ['Montserrat:400,700'] //Loads Lato font with weights 400 and 700
+    }
+  },
   /*
   ** Build configuration
   */
@@ -50,6 +58,7 @@ export default {
     */
     extend (config, ctx) {
     },
+    extractCSS: true,
     postcss: {
       plugins: {
         tailwindcss: path.resolve(__dirname, './tailwindcss.config.js')
