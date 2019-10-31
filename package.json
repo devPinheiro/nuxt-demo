@@ -8,12 +8,21 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "test": "jest"
   },
   "dependencies": {
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "tailwindcss": "^1.1.3"
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-serializer-vue": "^2.0.2",
+    "tailwindcss": "^1.1.3",
+    "vue-jest": "^3.0.5"
   }
 }
