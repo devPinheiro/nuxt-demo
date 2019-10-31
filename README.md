@@ -3,7 +3,7 @@
 > Personal Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1c208101-f49a-400b-a12c-4dabff36cf14/deploy-status)](https://app.netlify.com/sites/devpinheiro/deploys)
-
+[![CircleCI](https://circleci.com/gh/devPinheiro/nuxt-demo.svg?style=svg)](https://circleci.com/gh/devPinheiro/nuxt-demo)
 ## Build Setup
 
 ``` bash
