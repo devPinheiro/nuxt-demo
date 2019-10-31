@@ -5,13 +5,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import Form from '../components/form.vue'
+import Form from '../components/Form/form.vue'
 
 export default {
   components: {
-    Logo,
-    Form
+    Form 
   }
 }
 </script>
