@@ -1,26 +1,23 @@
-const { defaultTheme, backgroundColor } = require('tailwindcss/defaultTheme')
+const { defaultTheme, colors, fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   prefix: '',
   important: false,
   separator: ':',
   theme: {
-
+    fontFamily: {
+      Montserrat: [
+        'Montserrat'
+      ]
+    },
     extend: {
       colors: {
         gray: {
-            ...colors.gray,
-            '10': '#f5f5f5',  
+            '10': '#f5f5f5'
         }
-      },
-      fontFamily: {
-        sans: [
-          'Montserrat',
-          ...defaultTheme.fontFamily.sans,
-        ]
       },
     }
   },
-  variants: {},
+  variants: {}, 
   plugins: [],
-}
+};
