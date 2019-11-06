@@ -5,6 +5,9 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    inset: {
+      '-5': '-2rem',
+    },
     fontFamily: {
       Montserrat: [
         'Montserrat'
