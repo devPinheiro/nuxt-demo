@@ -17,8 +17,14 @@ module.exports = {
       colors: {
         gray: {
             '10': '#f5f5f5'
+        },
+        blue: {
+          '45': '#0CAADC'
         }
       },
+      height: {
+          '452': '452px'
+      }
     }
   },
   variants: {}, 
