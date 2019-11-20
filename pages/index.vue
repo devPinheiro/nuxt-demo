@@ -81,6 +81,7 @@
            </Card>
           </div>
         </div>
+        <Blog />
         
     </div>
  
@@ -90,11 +91,13 @@
 <script>
 import Hero from '../components/Hero/Hero.vue';
 import Card from '../components/Card/card.vue';
+import Blog from '../components/Blog.vue';
 
 export default {
   components: { 
     Hero,
-    Card 
+    Card,
+    Blog
   }
 }
 </script>
