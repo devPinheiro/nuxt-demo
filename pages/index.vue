@@ -1,7 +1,7 @@
 <template>
     <div>
         <Hero />
-        <div class="w-full max-w-screen-xl pt-32  lg:pt-40 mx-auto px-6 sm:pr-20 sm:pl-20  lg:pr-32 lg:pl-32 block mb-4 "> 
+        <div class="w-full max-w-screen-xl pt-32  lg:pt-40 mx-auto px-6 sm:pr-20 sm:pl-20  lg:pr-32 lg:pl-32 flex flex-row flex-col mb-4 "> 
           <div class="block lg:flex my-12">
               <div class="block h-452 w-full lg:w-2/3 adtalk_banner mb-6 lg:mr-4">     
                 <Card class="flex ">   
@@ -81,7 +81,15 @@
            </Card>
           </div>
         </div>
-        <Blog />
+
+        <!-- Blog Section -->
+        <div class="w-full max-w-screen-xl pt-32  lg:pt-40  px-6 sm:pr-20 sm:pl-20  lg:pr-32 lg:pl-32 m-auto lg:flex block mb-4 "> 
+         
+                 <Blog />
+                 <Blog />
+                 <Blog />
+       
+        </div>
         
     </div>
  
@@ -91,7 +99,7 @@
 <script>
 import Hero from '../components/Hero/Hero.vue';
 import Card from '../components/Card/card.vue';
-import Blog from '../components/Blog.vue';
+import Blog from '../components/Blog/Blog.vue';
 
 export default {
   components: { 
@@ -102,7 +110,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
   .adtalk_banner{
     background: url('../assets/images/adtalk_banner.png') no-repeat;
     background-position: center;
