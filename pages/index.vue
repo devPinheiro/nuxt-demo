@@ -2,6 +2,11 @@
     <div>
         <Hero />
         <div class="w-full max-w-screen-xl pt-32  lg:pt-40 mx-auto px-6 sm:pr-20 sm:pl-20  lg:pr-32 lg:pl-32 flex flex-row flex-col mb-4 "> 
+          <div class="block text-center">
+            <h1 class="text-3xl font-thin">
+              I built some cool projects, take a peep!
+            </h1>
+          </div>
           <div class="block lg:flex my-12">
               <div class="block h-452 w-full lg:w-2/3 adtalk_banner mb-6 lg:mr-4">     
                 <Card class="flex ">   
