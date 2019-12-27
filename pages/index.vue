@@ -93,6 +93,8 @@
                  <Blog />
                  <Blog />
                  <Blog />
+                 <Blog />
+                 <Blog />
        
         </div>
         
