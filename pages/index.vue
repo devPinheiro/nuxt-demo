@@ -88,7 +88,7 @@
         </div>
 
         <!-- Blog Section -->
-        <div class="w-full max-w-screen-xl pt-32  lg:pt-40  px-6 sm:pr-20 sm:pl-20  lg:pr-32 lg:pl-32 m-auto lg:flex block mb-4 "> 
+        <!-- <div class="w-full pt-12 lg:pt-40 px-6 m-auto lg:flex block mb-4"> 
          
                  <Blog />
                  <Blog />
@@ -96,7 +96,7 @@
                  <Blog />
                  <Blog />
        
-        </div>
+        </div> -->
         
     </div>
  
