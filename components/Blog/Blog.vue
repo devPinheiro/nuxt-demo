@@ -1,5 +1,5 @@
 <template>
-<div class="w-full lg:w-1/3 lg:my-4 lg:mx-4">
+<div class="w-full lg:my-4 lg:mx-4">
   <div class="m-auto lg:max-w-full lg:flex hover:shadow-2xl">
     <div
       class="h-32 lg:h-20 lg:w-20 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden cribsandspaces"
