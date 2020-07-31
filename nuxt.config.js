@@ -34,8 +34,7 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+ buildModules: ['@nuxtjs/svg', '@nuxtjs/color-mode'],
   /*
   ** Nuxt.js modules
   */

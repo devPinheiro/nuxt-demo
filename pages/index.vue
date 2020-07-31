@@ -6,6 +6,7 @@
             <h1 class="text-3xl font-thin">
               I built some cool projects, take a peep!
             </h1>
+            <theme-toggler></theme-toggler>
           </div>
           <div class="block lg:flex my-12">
               <div class="block h-452 w-full lg:w-2/3 adtalk_banner mb-6 lg:mr-4">     
@@ -103,16 +104,20 @@
 
 </template>
 
+
+
 <script>
 import Hero from '../components/Hero/Hero.vue';
 import Card from '../components/Card/card.vue';
 import Blog from '../components/Blog/Blog.vue';
+import ThemeToggler from '../components/ThemeToggler/ThemeToggler.vue'
 
 export default {
   components: { 
     Hero,
     Card,
-    Blog
+    Blog,
+    ThemeToggler
   }
 }
 </script>
