@@ -1,7 +1,12 @@
 <template>
-  <div class="w-full max-w-screen-xl pt-32  lg:pt-40 mx-auto px-6 sm:pr-20 sm:pl-20  lg:pr-32 lg:pl-32 block mb-4 bg-gray-10 ">
+  <div class="container w-full max-w-screen-xl pt-32  lg:pt-40 mx-auto px-6 sm:pr-20 sm:pl-20  lg:pr-32 lg:pl-32 block mb-4 bg-gray-10 ">
                   <div class="w-full xl:flex lg:flex ">
-                 
+                 <p>
+      <NuxtLink to="/project">
+        About page
+      </NuxtLink>
+    </p>
+   
                    <div class="block lg:hidden xl:hidden show  pt-8 m-auto  ">
                       <img class="porfolio_image w-64 m-auto"  src="../../assets/images/samuel_pinheiro_.png" alt="samuel svg" srcset="">
                     </div>
