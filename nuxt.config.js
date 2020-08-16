@@ -57,7 +57,7 @@ export default {
     */
     extend (config, ctx) {
     },
-    extractCSS: true,
+    extractCSS: false,
     optimization: {
       splitChunks: {
         cacheGroups: { 
@@ -69,6 +69,17 @@ export default {
           }
         }
       }
+    },
+    minimize: true,
+    minimizer: [
+      // terser-webpack-plugin
+      // optimize-css-assets-webpack-plugin
+    ],
+    splitChunks: {
+      chunks: 'all',
+      automaticNameDelimiter: '.',
+      name: undefined,
+      cacheGroups: {}
     },
     postcss: {
       plugins: {
