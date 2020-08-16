@@ -57,7 +57,7 @@ export default {
     */
     extend (config, ctx) {
     },
-    extractCSS: true,
+    extractCSS: false,
     optimization: {
       splitChunks: {
         cacheGroups: { 
